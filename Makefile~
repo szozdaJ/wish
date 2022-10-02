@@ -1,0 +1,5 @@
+all: wish.c 
+	gcc -g -Wall -o myprog myprog.c
+
+clean: 
+	  $(RM) wish
